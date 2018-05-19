@@ -1,0 +1,8 @@
+﻿  Moc'ing wyswietleniebazy.h...
+  Uic'ing wyswietleniebazy.ui...
+  main.cpp
+  wyswietleniebazy.cpp
+  moc_wyswietleniebazy.cpp
+wyswietleniebazy.obj : error LNK2019: nierozpoznany zewnętrzny symbol "public: __cdecl Factory::Factory(void)" (??0Factory@@QEAA@XZ) przywołany w funkcji "void __cdecl `dynamic initializer for 'fabryka''(void)" (??__Efabryka@@YAXXZ)
+wyswietleniebazy.obj : error LNK2019: nierozpoznany zewnętrzny symbol "public: static class FactoryInterface * __cdecl Factory::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?create@Factory@@SAPEAVFactoryInterface@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) przywołany w funkcji "void __cdecl `dynamic initializer for 'Priviledges''(void)" (??__EPriviledges@@YAXXZ)
+debug\\WyswietlenieBazy.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 2

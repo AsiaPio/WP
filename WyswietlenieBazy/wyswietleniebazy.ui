@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WyswietlenieBazy</class>
+ <widget class="QWidget" name="WyswietlenieBazy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WyswietlenieBazy</string>
+  </property>
+  <widget class="QPushButton" name="butShowUsers">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Users</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listBox">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>11</y>
+     <width>611</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butPriviledges">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Priviledges</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butProducts">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>70</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Products</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butAdd">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butDelete">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butGet">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>160</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Get</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butSort">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
